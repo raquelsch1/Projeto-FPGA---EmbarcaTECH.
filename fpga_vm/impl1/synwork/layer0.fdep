@@ -1,0 +1,30 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\raque\\OneDrive\\Documentos\\EmbarcaTECH\\projeto\\fpga_vm\\impl1\\synwork\\fpga_vm_impl1_comp.srs|-top|sistema_top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|C:\\Users\\raque\\OneDrive\\Documentos\\EmbarcaTECH\\projeto\\fpga_vm|-I|C:\\Users\\raque\\OneDrive\\Documentos\\EmbarcaTECH\\projeto\\fpga_vm\\impl1\\|-I|C:\\lscc\\diamond\\3.14\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\ecp5u.v|-devicelib|C:\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv"
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\bin64\\c_ver.exe":1727134360
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\ecp5u.v":1724359699
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\lucent\\pmi_def.v":1727134390
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vlog\\hypermods.v":1727134415
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vlog\\scemi_objects.v":1727134415
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vlog\\scemi_pipes.svh":1727134415
+#CUR:"C:\\Users\\raque\\OneDrive\\Documentos\\EmbarcaTECH\\projeto\\fpga_vm\\estacionamento_top.sv":1761745593
+#CUR:"C:\\Users\\raque\\OneDrive\\Documentos\\EmbarcaTECH\\projeto\\fpga_vm\\portao_top.sv":1761742736
+#CUR:"C:\\Users\\raque\\OneDrive\\Documentos\\EmbarcaTECH\\projeto\\fpga_vm\\sistema_top.sv":1761745636
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv" verilog
+1			"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv" verilog
+2			"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\sistema_top.sv" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 0 1
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work estacionamento_top 0
+module work portao_top 1
+module work sistema_top 2
+
+#identified top module
+top_module sistema_top

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe  -link  -top  sistema_top  -multisrs  C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\fpga_vm_impl1_comp.srs  -osyn  C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\fpga_vm_impl1_mult.srs  -log  C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synlog\fpga_vm_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe -link -top sistema_top -multisrs ..\synwork\fpga_vm_impl1_comp.srs -osyn ..\synwork\fpga_vm_impl1_mult.srs -log ..\synlog\fpga_vm_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\fpga_vm_impl1_comp.srs|io:i|time:1761745642|size:7303|exec:0|csum:B38A82E543A3608B77A5412D3010EEA4
+file:..\synwork\fpga_vm_impl1_mult.srs|io:o|time:1761745643|size:2321|exec:0|csum:
+file:..\synlog\fpga_vm_impl1_multi_srs_gen.srr|io:o|time:1761745643|size:1173|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe|io:i|time:1727134362|size:10549248|exec:1|csum:D91EA53737F6BC51A484A15DD0EB29F5

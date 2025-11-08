@@ -1,0 +1,33 @@
+---------------------------------------------------
+Report for cell sistema_top
+   Instance path: sistema_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      82.00        100.0
+                                 IOLGC	      11.00        100.0
+                                  LUT4	      40.00        100.0
+                                 IOREG	         11        100.0
+                                 IOBUF	         17        100.0
+                                PFUREG	         79        100.0
+                                RIPPLE	         46        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            portao_top	          1        85.4
+                    estacionamento_top	          1        14.6
+---------------------------------------------------
+Report for cell portao_top
+   Instance path: sistema_top/u_portao
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      70.00        85.4
+                                  LUT4	      31.00        77.5
+                                PFUREG	         67        84.8
+                                RIPPLE	         46        100.0
+---------------------------------------------------
+Report for cell estacionamento_top
+   Instance path: sistema_top/u_estacionamento
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00        14.6
+                                  LUT4	       9.00        22.5
+                                PFUREG	         12        15.2

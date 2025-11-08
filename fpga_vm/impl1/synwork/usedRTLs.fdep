@@ -1,0 +1,7 @@
+#List of actual used RTLs.
+
+File                                                                                          Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\sistema_top.sv"            verilog                      IN PROJECT
+"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv"             verilog                      IN PROJECT
+"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv"     verilog                      IN PROJECT

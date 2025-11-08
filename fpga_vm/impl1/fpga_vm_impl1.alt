@@ -1,0 +1,25 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Oct 29 10:47:45 2025 *
+NOTE DESIGN NAME: sistema_top *
+NOTE DEVICE NAME: LFE5U-45F-6CABGA381 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS seg1[0] : C17 : out *
+NOTE PINS clk : P3 : in *
+NOTE PINS SERVO2 : G20 : out *
+NOTE PINS SERVO1 : J20 : out *
+NOTE PINS S2 : M18 : in *
+NOTE PINS S1 : L20 : in *
+NOTE PINS I2 : K20 : in *
+NOTE PINS I1 : L18 : in *
+NOTE PINS seg1[6] : E3 : out *
+NOTE PINS seg1[5] : A3 : out *
+NOTE PINS seg1[4] : B4 : out *
+NOTE PINS seg1[3] : C3 : out *
+NOTE PINS seg1[2] : D3 : out *
+NOTE PINS seg1[1] : C4 : out *
+NOTE PINS vaga3_in : C2 : in *
+NOTE PINS vaga2_in : C1 : in *
+NOTE PINS vaga1_in : D1 : in *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *

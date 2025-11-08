@@ -1,0 +1,54 @@
+###############################################################################
+# top.lpf - mapeamento completo para Colorlight i9
+# Projeto: system_top (estacionamento_top + portao_top)
+###############################################################################
+
+# --- Clock 25 MHz ---
+LOCATE   COMP "clk" SITE "P3";
+IOBUF    PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25.0 MHz;
+
+###############################################################################
+# --- Entradas e saídas do módulo portao_top ---
+###############################################################################
+
+LOCATE COMP "I1" SITE "L18";
+IOBUF PORT "I1" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+LOCATE COMP "I2" SITE "K20";
+IOBUF PORT "I2" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+LOCATE COMP "S1" SITE "L20";
+IOBUF PORT "S1" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "S2" SITE "M18";
+IOBUF PORT "S2" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "SERVO1" SITE "J20";
+IOBUF PORT "SERVO1" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "SERVO2" SITE "G20";
+IOBUF PORT "SERVO2" IO_TYPE=LVCMOS33;
+
+###############################################################################
+# --- Entradas e saídas do módulo estacionamento_top ---
+###############################################################################
+
+# Entradas das vagas (vindas da Pico)
+LOCATE   COMP "vaga1_in" SITE "D1";
+IOBUF    PORT "vaga1_in" IO_TYPE=LVCMOS33;
+
+LOCATE   COMP "vaga2_in" SITE "C1";
+IOBUF    PORT "vaga2_in" IO_TYPE=LVCMOS33;
+
+LOCATE   COMP "vaga3_in" SITE "C2";
+IOBUF    PORT "vaga3_in" IO_TYPE=LVCMOS33;
+
+# Segmentos display 1 (entrada)
+LOCATE COMP "seg1[6]" SITE "E3"; IOBUF PORT "seg1[6]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # a
+LOCATE COMP "seg1[5]" SITE "A3"; IOBUF PORT "seg1[5]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # b
+LOCATE COMP "seg1[4]" SITE "B4"; IOBUF PORT "seg1[4]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # c
+LOCATE COMP "seg1[3]" SITE "C3"; IOBUF PORT "seg1[3]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # d
+LOCATE COMP "seg1[2]" SITE "D3"; IOBUF PORT "seg1[2]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # e
+LOCATE COMP "seg1[1]" SITE "C4"; IOBUF PORT "seg1[1]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # f
+LOCATE COMP "seg1[0]" SITE "C17"; IOBUF PORT "seg1[0]" IO_TYPE=LVCMOS33 PULLMODE=DOWN; # g

@@ -1,0 +1,8 @@
+i clk
+m 0 0
+u 29 90
+p {p:clk}{t:u_portao.clk}{p:u_portao.clk}{t:u_portao.q_d_i2.C}
+e ckid0_0 {t:u_portao.q_d_i2.C} dffr
+c ckid0_0 {p:clk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

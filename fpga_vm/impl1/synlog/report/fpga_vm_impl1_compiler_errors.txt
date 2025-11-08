@@ -1,0 +1,2 @@
+@E: CG849 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":12:0:12:0|Unexpected ) after , missing port in ANSI list
+

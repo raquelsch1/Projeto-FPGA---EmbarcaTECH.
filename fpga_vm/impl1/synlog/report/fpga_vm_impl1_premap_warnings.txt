@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Found inferred clock sistema_top|clk which controls 90 sequential elements including u_estacionamento.vagas_livres[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

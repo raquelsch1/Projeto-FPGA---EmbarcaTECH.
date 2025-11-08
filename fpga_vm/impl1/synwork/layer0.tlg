@@ -1,0 +1,34 @@
+Selecting top level module sistema_top
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":6:7:6:24|Synthesizing module estacionamento_top in library work.
+Running optimization stage 1 on estacionamento_top .......
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Register bit seg1[5] is always 1.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Pruning register bits 6 to 5 of seg1[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on estacionamento_top (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":1:7:1:16|Synthesizing module portao_top in library work.
+Running optimization stage 1 on portao_top .......
+Finished optimization stage 1 on portao_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Synthesizing module sistema_top in library work.
+Running optimization stage 1 on sistema_top .......
+Finished optimization stage 1 on sistema_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+Running optimization stage 2 on sistema_top .......
+Finished optimization stage 2 on sistema_top (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+Running optimization stage 2 on portao_top .......
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 15 to 9 of pulso_ciclos_s2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 7 to 5 of pulso_ciclos_s2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 2 to 1 of pulso_ciclos_s2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 15 to 9 of pulso_ciclos_s1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 7 to 5 of pulso_ciclos_s1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 2 to 1 of pulso_ciclos_s1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s1[0] is always 0.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s2[0] is always 0.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s1[8] is always 1.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s2[8] is always 1.
+Finished optimization stage 2 on portao_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Running optimization stage 2 on estacionamento_top .......
+Finished optimization stage 2 on estacionamento_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\layer0.duruntime
+
+

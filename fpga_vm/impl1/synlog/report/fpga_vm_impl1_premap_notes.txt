@@ -1,0 +1,17 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "00" on instance sync_i1[1:0].
+@N: FX493 |Applying initial value "00" on instance sync_i2[1:0].
+@N: FX493 |Applying initial value "00" on instance sync_s1[1:0].
+@N: FX493 |Applying initial value "00" on instance sync_s2[1:0].
+@N: FX493 |Applying initial value "01" on instance pulso_ciclos_s1[4:3].
+@N: FX493 |Applying initial value "01" on instance pulso_ciclos_s2[4:3].
+@N: FX493 |Applying initial value "0" on instance servo_state_s1[0].
+@N: FX493 |Applying initial value "0" on instance servo_state_s2[0].
+@N: FX493 |Applying initial value "0" on instance q_i1.
+@N: FX493 |Applying initial value "0" on instance q_i2.
+@N: FX493 |Applying initial value "0" on instance q_d_i1.
+@N: FX493 |Applying initial value "0" on instance q_d_i2.
+@N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist sistema_top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

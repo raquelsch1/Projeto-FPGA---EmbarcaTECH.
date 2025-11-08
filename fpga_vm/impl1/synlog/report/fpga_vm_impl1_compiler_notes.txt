@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":6:7:6:24|Synthesizing module estacionamento_top in library work.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Register bit seg1[5] is always 1.
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":1:7:1:16|Synthesizing module portao_top in library work.
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Synthesizing module sistema_top in library work.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s1[0] is always 0.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s2[0] is always 0.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s1[8] is always 1.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s2[8] is always 1.
+@N|Running in 64-bit mode
+

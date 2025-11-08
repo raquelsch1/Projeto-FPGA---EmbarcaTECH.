@@ -1,0 +1,56 @@
+----------------------------------------------------------------------
+Report for cell sistema_top.verilog
+
+Register bits: 90 of 43848 (0%)
+PIC Latch:       0
+I/O cells:       17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       46       100.0
+                            FD1P3AX        2       100.0
+                            FD1S3AX       34       100.0
+                            FD1S3AY        2       100.0
+                            FD1S3IX       41       100.0
+                                GSR        1       100.0
+                                 IB        8       100.0
+                           IFS1P3DX        7       100.0
+                                INV        8       100.0
+                                 OB        9       100.0
+                           OFS1P3DX        4       100.0
+                           ORCALUT4       36       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                 estacionamento_top        1       100.0
+                         portao_top        1       100.0
+                            
+                         TOTAL           207           
+----------------------------------------------------------------------
+Report for cell portao_top.netlist
+     Instance path:  u_portao
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       46       100.0
+                            FD1P3AX        2       100.0
+                            FD1S3AX       22        64.7
+                            FD1S3AY        2       100.0
+                            FD1S3IX       41       100.0
+                                INV        7        87.5
+                           ORCALUT4       28        77.8
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL           150           
+----------------------------------------------------------------------
+Report for cell estacionamento_top.netlist
+     Instance path:  u_estacionamento
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3AX       12        35.3
+                                INV        1        12.5
+                           ORCALUT4        8        22.2
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            23           

@@ -1,0 +1,336 @@
+
+         Lattice Mapping Report File for Design Module 'sistema_top'
+
+
+Design Information
+------------------
+
+Command line:   map -a ECP5U -p LFE5U-45F -t CABGA381 -s 6 -oc Commercial
+     fpga_vm_impl1.ngd -o fpga_vm_impl1_map.ncd -pr fpga_vm_impl1.prf -mp
+     fpga_vm_impl1.mrp -lpf C:/Users/raque/OneDrive/Documentos/EmbarcaTECH/proje
+     to/fpga_vm/impl1/fpga_vm_impl1_synplify.lpf -lpf
+     C:/Users/raque/OneDrive/Documentos/EmbarcaTECH/projeto/fpga_vm/top.lpf -gui
+     
+Target Vendor:  LATTICE
+Target Device:  LFE5U-45FCABGA381
+Target Performance:   6
+Mapper:  sa5p00,  version:  Diamond (64-bit) 3.14.0.75.2
+Mapped on:  10/29/25  10:47:30
+
+Design Summary
+--------------
+
+   Number of registers:     90 out of 44457 (0%)
+      PFU registers:           79 out of 43848 (0%)
+      PIO registers:           11 out of   609 (2%)
+   Number of SLICEs:        82 out of 21924 (0%)
+      SLICEs as Logic/ROM:     82 out of 21924 (0%)
+      SLICEs as RAM:            0 out of 16443 (0%)
+      SLICEs as Carry:         46 out of 21924 (0%)
+   Number of LUT4s:        132 out of 43848 (0%)
+      Number used as logic LUTs:         40
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       92
+      Number used as shift registers:     0
+   Number of PIO sites used: 17 out of 203 (8%)
+   Number of block RAMs:  0 out of 108 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 4 (0%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+   MULT9X9D            0
+   ALU54B              0
+
+                                    Page 1
+
+
+
+
+Design:  sistema_top                                   Date:  10/29/25  10:47:30
+
+Design Summary (cont)
+---------------------
+   ALU24B              0
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 144 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 72 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 144 (0 %)
+   Number of clocks:  1
+     Net clk_c: 66 loads, 66 rising, 0 falling (Driver: PIO clk )
+   Number of Clock Enables:  2
+     Net u_portao/cnt_i114: 1 loads, 1 LSLICEs
+     Net u_portao/cnt_i214: 1 loads, 1 LSLICEs
+   Number of LSRs:  5
+     Net u_portao/N_30_1_i: 5 loads, 5 LSLICEs
+     Net u_portao/N_4_1_i: 5 loads, 5 LSLICEs
+     Net u_portao/periodo_cnt11: 5 loads, 5 LSLICEs
+     Net u_portao/cnt_i213_i: 6 loads, 6 LSLICEs
+     Net u_portao/cnt_i113_i: 6 loads, 6 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net u_portao/cnt_i113_i: 6 loads
+     Net u_portao/cnt_i213_i: 6 loads
+     Net u_portao/N_30_1_i: 5 loads
+     Net u_portao/N_4_1_i: 5 loads
+     Net u_portao/periodo_cnt11: 5 loads
+     Net u_portao/q_i1: 5 loads
+     Net u_portao/q_i2: 5 loads
+     Net u_portao/SERVO1_0: 4 loads
+     Net u_portao/SERVO1_axb_18: 4 loads
+     Net u_portao/SERVO2_0: 4 loads
+
+
+
+
+   Number of warnings:  7
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: PULLMODE=DOWN for seg1_pad[0]/IOBUF violates legal combination
+     and is ignored.
+WARNING - map: PULLMODE=DOWN for seg1_pad[6]/IOBUF violates legal combination
+     and is ignored.
+WARNING - map: PULLMODE=DOWN for seg1_pad[5]/IOBUF violates legal combination
+     and is ignored.
+WARNING - map: PULLMODE=DOWN for seg1_pad[4]/IOBUF violates legal combination
+     and is ignored.
+WARNING - map: PULLMODE=DOWN for seg1_pad[3]/IOBUF violates legal combination
+     and is ignored.
+WARNING - map: PULLMODE=DOWN for seg1_pad[2]/IOBUF violates legal combination
+     and is ignored.
+WARNING - map: PULLMODE=DOWN for seg1_pad[1]/IOBUF violates legal combination
+     and is ignored.
+
+
+                                    Page 2
+
+
+
+
+Design:  sistema_top                                   Date:  10/29/25  10:47:30
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| seg1[0]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| clk                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SERVO2              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SERVO1              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| S2                  | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| S1                  | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| I2                  | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| I1                  | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| seg1[6]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg1[5]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg1[4]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| seg1[3]             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg1[2]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| seg1[1]             | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| vaga3_in            | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| vaga2_in            | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| vaga1_in            | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block u_estacionamento/GND undriven or does not drive anything - clipped.
+Block u_estacionamento/VCC undriven or does not drive anything - clipped.
+Block u_portao/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal u_portao/VCC undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal u_portao/SERVO1_cry_16_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_16_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_14_0_S1 undriven or does not drive anything -
+
+                                    Page 3
+
+
+
+
+Design:  sistema_top                                   Date:  10/29/25  10:47:30
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal u_portao/SERVO1_cry_14_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_12_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_12_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_10_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_10_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_8_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_8_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_6_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_6_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_4_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_4_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_3_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO1_cry_3_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/N_1 undriven or does not drive anything - clipped.
+Signal u_portao/SERVO2_cry_18_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_18_0_COUT undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_16_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_16_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_14_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_14_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_12_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_12_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_10_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_10_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO2_cry_8_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO2_cry_8_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO2_cry_6_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO2_cry_6_0_S0 undriven or does not drive anything - clipped.
+     
+
+                                    Page 4
+
+
+
+
+Design:  sistema_top                                   Date:  10/29/25  10:47:30
+
+Removed logic (cont)
+--------------------
+Signal u_portao/SERVO2_cry_4_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO2_cry_4_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO2_cry_3_0_S1 undriven or does not drive anything - clipped.
+     
+Signal u_portao/SERVO2_cry_3_0_S0 undriven or does not drive anything - clipped.
+     
+Signal u_portao/N_2 undriven or does not drive anything - clipped.
+Signal u_portao/un4_cnt_i1_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal u_portao/un4_cnt_i1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/un4_cnt_i1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/N_3 undriven or does not drive anything - clipped.
+Signal u_portao/un4_cnt_i2_cry_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal u_portao/un4_cnt_i2_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/un4_cnt_i2_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/N_4 undriven or does not drive anything - clipped.
+Signal u_portao/un2_periodo_cnt_cry_17_0_COUT undriven or does not drive
+     anything - clipped.
+Signal u_portao/un2_periodo_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal u_portao/un2_periodo_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/N_5 undriven or does not drive anything - clipped.
+Signal u_portao/SERVO1_cry_18_0_S0 undriven or does not drive anything -
+     clipped.
+Signal u_portao/SERVO1_cry_18_0_COUT undriven or does not drive anything -
+     clipped.
+Block VCC was optimized away.
+Block u_portao/VCC was optimized away.
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 156 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights
+     reserved.

@@ -1,0 +1,708 @@
+#Build: Synplify Pro (R) V-2023.09L-2, Build 349R, Sep 17 2024
+#install: C:\lscc\diamond\3.14\synpbase
+#OS: Windows 10 or later
+#Hostname: LAPTOP-H2PSHQ4O
+
+# Wed Oct 29 10:47:21 2025
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LAPTOP-H2PSHQ4O
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LAPTOP-H2PSHQ4O
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.14\synpbase\lib\lucent\ecp5u.v" (library work)
+@I::"C:\lscc\diamond\3.14\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.14\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv" (library work)
+@I::"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv" (library work)
+@I::"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\sistema_top.sv" (library work)
+Verilog syntax check successful!
+Selecting top level module sistema_top
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":6:7:6:24|Synthesizing module estacionamento_top in library work.
+Running optimization stage 1 on estacionamento_top .......
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Register bit seg1[5] is always 1.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Pruning register bits 6 to 5 of seg1[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on estacionamento_top (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":1:7:1:16|Synthesizing module portao_top in library work.
+Running optimization stage 1 on portao_top .......
+Finished optimization stage 1 on portao_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Synthesizing module sistema_top in library work.
+Running optimization stage 1 on sistema_top .......
+Finished optimization stage 1 on sistema_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+Running optimization stage 2 on sistema_top .......
+Finished optimization stage 2 on sistema_top (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+Running optimization stage 2 on portao_top .......
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 15 to 9 of pulso_ciclos_s2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 7 to 5 of pulso_ciclos_s2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 2 to 1 of pulso_ciclos_s2[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 15 to 9 of pulso_ciclos_s1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 7 to 5 of pulso_ciclos_s1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Pruning register bits 2 to 1 of pulso_ciclos_s1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s1[0] is always 0.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s2[0] is always 0.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s1[8] is always 1.
+@N: CL189 :"C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\portao_top.sv":140:4:140:12|Register bit pulso_ciclos_s2[8] is always 1.
+Finished optimization stage 2 on portao_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+Running optimization stage 2 on estacionamento_top .......
+Finished optimization stage 2 on estacionamento_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 29 10:47:22 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LAPTOP-H2PSHQ4O
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+File C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 29 10:47:22 2025
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\fpga_vm_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 24MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 29 10:47:22 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LAPTOP-H2PSHQ4O
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+File C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\fpga_vm_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Oct 29 10:47:23 2025
+
+###########################################################]
+# Wed Oct 29 10:47:24 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LAPTOP-H2PSHQ4O
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\fpga_vm_impl1_scck.rpt 
+See clock summary report "C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\fpga_vm_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 206MB)
+
+NConnInternalConnection caching is on
+@N: FX493 |Applying initial value "00" on instance sync_i1[1:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "00" on instance sync_i2[1:0].
+@N: FX493 |Applying initial value "00" on instance sync_s1[1:0].
+@N: FX493 |Applying initial value "00" on instance sync_s2[1:0].
+@N: FX493 |Applying initial value "01" on instance pulso_ciclos_s1[4:3].
+@N: FX493 |Applying initial value "01" on instance pulso_ciclos_s2[4:3].
+@N: FX493 |Applying initial value "0" on instance servo_state_s1[0].
+@N: FX493 |Applying initial value "0" on instance servo_state_s2[0].
+@N: FX493 |Applying initial value "0" on instance q_i1.
+@N: FX493 |Applying initial value "0" on instance q_i2.
+@N: FX493 |Applying initial value "0" on instance q_d_i1.
+@N: FX493 |Applying initial value "0" on instance q_d_i2.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist sistema_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
+
+
+
+Clock Summary
+******************
+
+          Start               Requested     Requested     Clock        Clock          Clock
+Level     Clock               Frequency     Period        Type         Group          Load 
+-------------------------------------------------------------------------------------------
+0 -       sistema_top|clk     200.0 MHz     5.000         inferred     (multiple)     90   
+===========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                    Clock     Source        Clock Pin                   Non-clock Pin     Non-clock Pin
+Clock               Load      Pin           Seq Example                 Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------
+sistema_top|clk     90        clk(port)     u_portao.cnt_i1[16:0].C     -                 -            
+=======================================================================================================
+
+@W: MT529 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\estacionamento_top.sv":36:4:36:9|Found inferred clock sistema_top|clk which controls 90 sequential elements including u_estacionamento.vagas_livres[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 90 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   90         u_portao.q_d_i2
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 260MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Oct 29 10:47:25 2025
+
+###########################################################]
+# Wed Oct 29 10:47:25 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LAPTOP-H2PSHQ4O
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 203MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+@N: FX493 |Applying initial value "0" on instance sync_i1[0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance sync_i1[1].
+@N: FX493 |Applying initial value "0" on instance sync_i2[0].
+@N: FX493 |Applying initial value "0" on instance sync_i2[1].
+@N: FX493 |Applying initial value "0" on instance sync_s1[0].
+@N: FX493 |Applying initial value "0" on instance sync_s1[1].
+@N: FX493 |Applying initial value "0" on instance sync_s2[0].
+@N: FX493 |Applying initial value "0" on instance sync_s2[1].
+@N: FX493 |Applying initial value "1" on instance pulso_ciclos_s1[3].
+@N: FX493 |Applying initial value "0" on instance pulso_ciclos_s1[4].
+@N: FX493 |Applying initial value "1" on instance pulso_ciclos_s2[3].
+@N: FX493 |Applying initial value "0" on instance pulso_ciclos_s2[4].
+@N: FX493 |Applying initial value "0" on instance servo_state_s1[0].
+@N: FX493 |Applying initial value "0" on instance servo_state_s2[0].
+@N: FX493 |Applying initial value "0" on instance q_d_i1.
+@N: FX493 |Applying initial value "0" on instance q_d_i2.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 259MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_15 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_17 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_21 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_23 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_26 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_44 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_0 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_1 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_2 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_3 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_4 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_5 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_6 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO1_7 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_0 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_1 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_2 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_3 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_4 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_5 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_6 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.SERVO2_7 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_117 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.N_118 has multiple drivers .
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net N_11 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net N_1541 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_0 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_1 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_2 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_3 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_4 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_5 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_6 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_7 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_8 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_9 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_10 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_11 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_12 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_13 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_14 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_15 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i1_axb_16 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_0 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_1 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_2 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_3 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_4 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_5 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_6 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_7 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_8 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_9 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_10 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_11 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_12 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_13 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_14 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_15 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un4_cnt_i2_axb_16 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_0 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_1 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_2 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_3 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_4 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_5 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_6 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_7 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_8 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_9 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_10 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_11 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_12 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_13 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_14 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_15 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_16 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_17 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net u_portao.un2_periodo_cnt_axb_18 has multiple drivers .
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 262MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     1.79ns		  44 /        90
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net N_2155 has multiple drivers .
+@W: BN161 :"c:\users\raque\onedrive\documentos\embarcatech\projeto\fpga_vm\sistema_top.sv":5:7:5:17|Net N_2157 has multiple drivers .
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 263MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 263MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 263MB)
+
+Writing Analyst data base C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\synwork\fpga_vm_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 263MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\raque\OneDrive\Documentos\EmbarcaTECH\projeto\fpga_vm\impl1\fpga_vm_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 270MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 271MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 271MB)
+
+@W: MT420 |Found inferred clock sistema_top|clk with period 5.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Oct 29 10:47:28 2025
+#
+
+
+Top view:               sistema_top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.637
+
+                    Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock      Frequency     Frequency     Period        Period        Slack     Type         Group     
+-------------------------------------------------------------------------------------------------------------
+sistema_top|clk     200.0 MHz     297.4 MHz     5.000         3.362         1.637     inferred     (multiple)
+=============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------
+sistema_top|clk  sistema_top|clk  |  5.000       1.638  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sistema_top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                                   Arrival          
+Instance                    Reference           Type        Pin     Net                Time        Slack
+                            Clock                                                                       
+--------------------------------------------------------------------------------------------------------
+u_portao.cnt_i1[1]          sistema_top|clk     FD1S3IX     Q       cnt_i1[1]          0.907       1.637
+u_portao.cnt_i1[3]          sistema_top|clk     FD1S3IX     Q       cnt_i1[3]          0.907       1.637
+u_portao.cnt_i2[1]          sistema_top|clk     FD1S3IX     Q       cnt_i2[1]          0.907       1.637
+u_portao.cnt_i2[3]          sistema_top|clk     FD1S3IX     Q       cnt_i2[3]          0.907       1.637
+u_portao.periodo_cnt[0]     sistema_top|clk     FD1S3AX     Q       SERVO1_axb_0       0.955       1.905
+u_portao.cnt_i1[0]          sistema_top|clk     FD1S3IX     Q       cnt_i1[0]          0.955       1.966
+u_portao.cnt_i2[0]          sistema_top|clk     FD1S3IX     Q       cnt_i2[0]          0.955       1.966
+u_portao.periodo_cnt[3]     sistema_top|clk     FD1S3AX     Q       periodo_cnt[3]     0.985       1.998
+u_portao.periodo_cnt[4]     sistema_top|clk     FD1S3AX     Q       periodo_cnt[4]     0.985       1.998
+u_portao.periodo_cnt[1]     sistema_top|clk     FD1S3AX     Q       SERVO1_axb_1       0.907       2.014
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                                           Required          
+Instance                     Reference           Type        Pin     Net                        Time         Slack
+                             Clock                                                                                
+------------------------------------------------------------------------------------------------------------------
+u_portao.q_i1                sistema_top|clk     FD1P3AX     SP      cnt_i114                   4.806        1.637
+u_portao.q_i2                sistema_top|clk     FD1P3AX     SP      cnt_i214                   4.806        1.637
+u_portao.periodo_cnt[17]     sistema_top|clk     FD1S3IX     D       periodo_cnt_3[17]          4.946        1.905
+u_portao.periodo_cnt[18]     sistema_top|clk     FD1S3IX     D       periodo_cnt_3[18]          4.946        1.905
+u_portao.cnt_i1[15]          sistema_top|clk     FD1S3IX     D       un4_cnt_i1_cry_15_0_S0     4.946        1.966
+u_portao.cnt_i1[16]          sistema_top|clk     FD1S3IX     D       un4_cnt_i1_cry_15_0_S1     4.946        1.966
+u_portao.cnt_i2[15]          sistema_top|clk     FD1S3IX     D       un4_cnt_i2_cry_15_0_S0     4.946        1.966
+u_portao.cnt_i2[16]          sistema_top|clk     FD1S3IX     D       un4_cnt_i2_cry_15_0_S1     4.946        1.966
+u_portao.periodo_cnt[15]     sistema_top|clk     FD1S3IX     D       periodo_cnt_3[15]          4.946        1.966
+u_portao.periodo_cnt[16]     sistema_top|clk     FD1S3IX     D       periodo_cnt_3[16]          4.946        1.966
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.194
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.806
+
+    - Propagation time:                      3.169
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.637
+
+    Number of logic level(s):                4
+    Starting point:                          u_portao.cnt_i1[1] / Q
+    Ending point:                            u_portao.q_i1 / SP
+    The start point is clocked by            sistema_top|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            sistema_top|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+u_portao.cnt_i1[1]           FD1S3IX      Q        Out     0.907     0.907 r     -         
+cnt_i1[1]                    Net          -        -       -         -           2         
+u_portao.un1_cnt_i1_8_0      ORCALUT4     A        In      0.000     0.907 r     -         
+u_portao.un1_cnt_i1_8_0      ORCALUT4     Z        Out     0.606     1.513 r     -         
+un1_cnt_i1_8_0               Net          -        -       -         -           1         
+u_portao.un1_cnt_i1_8_12     ORCALUT4     D        In      0.000     1.513 r     -         
+u_portao.un1_cnt_i1_8_12     ORCALUT4     Z        Out     0.606     2.119 r     -         
+un1_cnt_i1_8_12              Net          -        -       -         -           1         
+u_portao.un1_cnt_i1_8        ORCALUT4     D        In      0.000     2.119 r     -         
+u_portao.un1_cnt_i1_8        ORCALUT4     Z        Out     0.660     2.779 r     -         
+un1_cnt_i1_8                 Net          -        -       -         -           2         
+u_portao.cnt_i114            ORCALUT4     C        In      0.000     2.779 r     -         
+u_portao.cnt_i114            ORCALUT4     Z        Out     0.390     3.169 r     -         
+cnt_i114                     Net          -        -       -         -           1         
+u_portao.q_i1                FD1P3AX      SP       In      0.000     3.169 r     -         
+===========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 271MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 271MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_45f-6
+
+Register bits: 90 of 43848 (0%)
+PIC Latch:       0
+I/O cells:       17
+
+
+Details:
+CCU2C:          46
+FD1P3AX:        2
+FD1S3AX:        34
+FD1S3AY:        2
+FD1S3IX:        41
+GSR:            1
+IB:             8
+IFS1P3DX:       7
+INV:            8
+OB:             9
+OFS1P3DX:       4
+ORCALUT4:       36
+PUR:            1
+VHI:            3
+VLO:            3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 271MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Oct 29 10:47:28 2025
+
+###########################################################]
